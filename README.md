@@ -21,18 +21,18 @@ The News Blog API project is designed to serve as the backend for a news bloggin
 * Virtualenv
 
 ### Steps
-1. Clone the repository:
+#### 1. Clone the repository:
 
 ```
 git clone https://github.com/zahrew/news_api.git
 cd news_api
 ```
-2. Create a virtual environment:
+#### 2. Create a virtual environment:
 
 ```
 python -m venv venv
 ```
-3. Activate the virtual environment:
+#### 3. Activate the virtual environment:
 
 * On Windows:
 
@@ -44,28 +44,28 @@ venv\Scripts\activate
 ```
 source venv/bin/activate
 ```
-4. Install the dependencies:
+#### 4. Install the dependencies:
 
 ```
 pip install -r requirements.txt
 ```
-5. Apply migrations:
+#### 5. Apply migrations:
 
 
 ```
 python manage.py migrate
 ```
-6. Create a superuser for accessing the admin site:
+#### 6. Create a superuser for accessing the admin site:
 
 ```
 python manage.py createsuperuser
 ```
-7. Run the development server:
+#### 7. Run the development server:
 
 ```
 python manage.py runserver
 ```
-8. Access the application at http://127.0.0.1:8000/.
+#### 8. Access the application at http://127.0.0.1:8000/.
 
 
 ## Usage
