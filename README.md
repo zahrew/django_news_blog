@@ -7,7 +7,7 @@ This is a backend project for a News Blog application, built using Django and Dj
 [Headers](#License)
 
 
-[Emphasis](#emphasis)  
+[Emphasis](#Installation)  
 ...snip...    
 <a name="Installation"/>
 <a name="Usage"/>
